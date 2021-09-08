@@ -1,8 +1,14 @@
+
 body {
-	background: #E0FFFF;
-	font-family: fantasy;
+	background: #a3eeee;
+	font-family: Arial;
+
 }
 h1 {font-size: 22px;
+	font-weight: bolder;
+	justify-content: center;
+
+	
 }
 a {
 	color: black;
