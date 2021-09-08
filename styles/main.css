@@ -1,0 +1,20 @@
+body {
+	background: #E0FFFF;
+	font-family: fantasy;
+}
+h1 {font-size: 22px;
+}
+a {
+	color: black;
+	text-decoration-color: underline;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+h2 {
+	font-size: 16px;
+}
+p {
+	font-size: 14px;
+}
