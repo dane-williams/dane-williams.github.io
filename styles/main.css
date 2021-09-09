@@ -1,8 +1,7 @@
-.top {background-color: lightblue;
-}
+
 body {
 	background: white;
-	font-family: Arial;
+	font-family: fantasy;
 
 }
 h1 {font-size: 22px;
@@ -24,4 +23,10 @@ h2 {
 }
 p {
 	font-size: 14px;
+}
+
+.box {
+	height: 100px;
+	width: 447px;
+	background-color: lightblue;
 }
