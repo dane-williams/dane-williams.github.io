@@ -102,6 +102,9 @@ footer{
     margin-right: 20px;
     margin-bottom: 20px;
 }
+.raf a{
+    color: white;
+}
 #logo{
     width: 150px;
     margin-bottom: 5vh;
