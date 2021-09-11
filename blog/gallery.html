@@ -1,32 +1,55 @@
 <html>
 <head>
-    <title>My Learning Journey</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg">     
-            <div class="banner">
-                <div class="links">
-            
-                    <li><a href="https://dane-williams.github.io">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="https://devacademy.co.nz">Dev</a></li>
-                    <li><a href="#">Contact</a></li>
+                     <div class="container">
+                         <img src="relative.png">
+                     </div>
+                     <div class="text">
+                        <h2>Whats the difference?</h2>
+                        <h3>Relative:</h3>
+                        <p>The term Relative in this case means "relative to itself". On its own you wont see much of a difference. Its not until
+                           you combine it with some of the other attributes do we see how useful it can be.
+                           Add top, left, bottom or right into the element along with the px measurement and you can manoeuvre
+                           the around the page. You can also use z-index on the element which means it will appear
+                           on top of any other statically positioned element. 
+                           </p>
+                     </div>
+                 </div>
+                 <div class="container">
+                    
+                    <div class="text">
+                        <h3>Absolute:</h3>
+                        <p>This type of positioning lets you place the element basically where ever you want 
+                           it also using the top, left, bottom or right add-ons. Relative to the next parent element 
+                           with relative or (absolute) positioning that is.
+                           The big downside is that it can limit the flexibility of your website as its not affected by
+                        and doesnt affect other elements.
+                        </p>
+                        <div class="container">
+                            <img src="absolute.png">
+                        </div>
+                    </div>
+                </div> 
+
+
+                <div class="container">
+                    <div class="container">
+                        <img src="fixed.png">
+                    </div>
+                    <div class="text">
+                        <h3>Fixed</h3>
+                        <p>Fixed is possibly the easiest to understand. Where you put it is where it will stay.
+                        Regardless of how far you scroll the element remains in the same spot on the screen.
+                        Very handy for use on a navigation bar that you want visible no matter what.
+                        </p>
+                       
+                    </div>
                 </div>
-            </div>
-
-        <div class="content">
-             <h1>My Dev Academy Journey</h1>
-                <p>This is the home page for my Dev Academy Foundations course, <br>Here you will find links to my various learning blogs for the course i started in August 2021.
-                 </p>
-            <div>
-                <button type="button">Blog 1</button>
-                <button type="button">Blog 2</button>
-                <button type="button">Blog 3</button>
-            </div>
-        </div>
-
-    
+                       
+               
     </div>
-</body>
+  </body>
 </html>
