@@ -129,7 +129,13 @@ button a{
     width: 200px;
    
 }
-
-#html {
-    
+#brain {
+    max-width:50%;
+    height:auto;    
 }
+#growth {
+    max-width:50%;
+    height:auto;  
+    margin-left: 210px;
+}
+    
